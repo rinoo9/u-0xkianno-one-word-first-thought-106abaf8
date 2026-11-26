@@ -1,6 +1,6 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
-const WORD = "petrichor";
+const WORD = "sonder";
 
 // Guard: the entry must be exactly one word — no spaces, no newline.
 if (!/^[A-Za-z]+$/.test(WORD)) {
